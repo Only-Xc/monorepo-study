@@ -4,7 +4,14 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "lint:eslint": "eslint \"packages/**/*.{vue,js,jsx,.json}\" --fix"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.2"
   }
 }

@@ -1,0 +1,9 @@
+# 项目开发
+node_modules/
+dist/
+public/
+src/assets/
+
+# Editor directories and files
+.vscode
+.idea
