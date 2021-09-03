@@ -5,13 +5,18 @@
     "packages/*"
   ],
   "scripts": {
-    "lint:eslint": "eslint \"packages/**/*.{vue,js,jsx,.json}\" --fix"
+    "lint:eslint": "eslint \"packages/**/*.{vue,js,jsx,.json}\" --fix",
+    "lint:stylelint": "stylelint --fix \"packages/**/*.{vue,less,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "lerna": "^4.0.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.5.0",
+    "stylelint-config-standard": "^22.0.0"
   }
 }

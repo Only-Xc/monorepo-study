@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recess-order",
+    "stylelint-config-prettier"
+  ],
+  "ignoreFiles": ["./packages/**/*.js", "./packages/**/*.jsx"]
+}
