@@ -11,6 +11,9 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-angular": "^13.1.0",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -22,5 +25,10 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-recess-order": "^2.5.0",
     "stylelint-config-standard": "^22.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
